@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC4570A32041F3A5004DD200 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = BC4570A22041F3A5004DD200 /* pokemon.csv */; };
 		BCCF49712034756500931557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF49702034756500931557 /* AppDelegate.swift */; };
 		BCCF49732034756500931557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF49722034756500931557 /* ViewController.swift */; };
 		BCCF49762034756500931557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCF49742034756500931557 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC4570A22041F3A5004DD200 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		BCCF496D2034756500931557 /* pokedex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCF49702034756500931557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCCF49722034756500931557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				BCCF49722034756500931557 /* ViewController.swift */,
 				BCCF49742034756500931557 /* Main.storyboard */,
 				BCCF49772034756500931557 /* Assets.xcassets */,
+				BC4570A22041F3A5004DD200 /* pokemon.csv */,
 				BCCF49792034756500931557 /* LaunchScreen.storyboard */,
 				BCCF497C2034756500931557 /* Info.plist */,
 			);
@@ -234,6 +237,7 @@
 			files = (
 				BCCF497B2034756500931557 /* LaunchScreen.storyboard in Resources */,
 				BCCF49782034756500931557 /* Assets.xcassets in Resources */,
+				BC4570A32041F3A5004DD200 /* pokemon.csv in Resources */,
 				BCCF49762034756500931557 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				BCCF49972034756500931557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCCF49982034756500931557 /* Build configuration list for PBXNativeTarget "pokedex3Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				BCCF499A2034756500931557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCCF499B2034756500931557 /* Build configuration list for PBXNativeTarget "pokedex3UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				BCCF499D2034756500931557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
